@@ -16,3 +16,12 @@ scanf("%d %d",&n1,&n2);
 sub=n2-n1;
 printf("sub of %d and %d is %d\n",n1,n2.sub);
 }
+#include<stdio.h>
+int main()
+{
+int n1,n2,mul;
+printf("Enter two integers")
+scanf("%d %d",&n1,&n2);
+mul=n1*n2;
+printf("sum of %d and %d is %d\n",n1,n2,mul);
+}
